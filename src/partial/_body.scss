@@ -1,0 +1,37 @@
+body{
+  background-color: $backgroundColor;
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:100%;
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background:  $carousel;
+}
+.box{
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  margin: 5%;
+  background: black;
+
+}
+
+.box img{
+  margin-top: 20px;
+  width: $imgSize;
+}
+p{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:grey;
+}
+h4,h5{
+  margin-top: 10px;
+  color:white;
+}
