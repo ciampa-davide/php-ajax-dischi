@@ -64,4 +64,7 @@
             "year"=>"1994"
         ]
     ];
+
+  header("Content-Type : application/json");
+  echo json_encode($response);
  ?>
